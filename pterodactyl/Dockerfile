@@ -7,7 +7,7 @@ FROM frolvlad/alpine-glibc:alpine-3.12
 
 LABEL maintainer='NoxInmortus'
 
-RUN apk add --update --no-cache wget ca-certificates libstdc++ musl libuuid \
+RUN apk add --update --no-cache wget ca-certificates libstdc++ musl libuuid su-exec \
   && adduser -D -h /home/container container
 
 USER container
