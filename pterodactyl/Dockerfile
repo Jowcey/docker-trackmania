@@ -27,7 +27,6 @@ ENV PATH $PYENV_HOME/bin:$PATH
 
 RUN pyenv install $PYTHON_VERSION
 RUN pyenv global $PYTHON_VERSION
-RUN pip install --upgrade pip && pyenv rehash
 RUN pyenv virtualenv 3.7.6 pyplanet-user
 
 COPY ./entrypoint.sh /entrypoint.sh
