@@ -17,11 +17,11 @@ WORKDIR /home/container
 ARG PYENV_ROOT=$HOME/.pyenv
 ENV PATH=$PYENV_ROOT/bin:$PYENV_ROOT/shims:$PATH
 
-RUN git clone https://github.com/pyenv/pyenv.git $PYENV_ROOT && \
-  rm -rfv $PYENV_ROOT/.git
-RUN git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-RUN eval "$(pyenv init -)"
-RUN eval "$(pyenv virtualenv-init -)"
+#RUN git clone https://github.com/pyenv/pyenv.git $PYENV_ROOT && \
+#  rm -rfv $PYENV_ROOT/.git
+#RUN git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+#RUN eval "$(pyenv init -)"
+#RUN eval "$(pyenv virtualenv-init -)"
 
 COPY ./entrypoint.sh /entrypoint.sh
 CMD ["/bin/ash", "/entrypoint.sh"]
