@@ -15,7 +15,7 @@ ENV  USER=container HOME=/home/container
 WORKDIR /home/container
 
 ARG PYENV_ROOT=$HOME/.pyenv
-ENV PATH $PYENV_ROOT/bin:$PATH
+ENV PATH $HOME/.pyenv/bin:$PATH
 
 COPY ./entrypoint.sh /entrypoint.sh
 CMD ["/bin/ash", "/entrypoint.sh"]
