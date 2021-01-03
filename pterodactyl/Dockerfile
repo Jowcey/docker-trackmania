@@ -15,7 +15,7 @@ ENV USER=container HOME=/home/container
 WORKDIR /home/container
 
 ENV PYENV_ROOT=$HOME/.pyenv
-ENV PATH=$PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
+ENV PATH=$PYENV_ROOT/bin:$PYENV_ROOT/shims:$PYENV_ROOT/libexec:$PATH
 
 #RUN git clone https://github.com/pyenv/pyenv.git $PYENV_ROOT && \
 #  rm -rfv $PYENV_ROOT/.git
