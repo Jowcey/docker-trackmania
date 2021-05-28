@@ -1,7 +1,7 @@
 # TM2020 Pterodactyl egg
-#### tested on Pterodactyl Wings v1.4.2
+#### Tested on Pterodactyl Wings v1.4.2
 
-### Install instructions:
+### Installation:
 1. Import egg into Pterodactyl
 2. Add port allocation to node
 3. Create server with same port allocation
