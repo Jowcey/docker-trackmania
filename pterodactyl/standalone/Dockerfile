@@ -5,9 +5,9 @@
 # ----------------------------------
 FROM frolvlad/alpine-glibc:alpine-3.12
 
-LABEL maintainer='NoxInmortus'
+LABEL maintainer='treier57lol'
 
-RUN apk add --update --no-cache wget ca-certificates libstdc++ musl libuuid screen \
+RUN apk add --update --no-cache wget ca-certificates libstdc++ musl libuuid \
   && adduser -D -h /home/container container
 
 USER container

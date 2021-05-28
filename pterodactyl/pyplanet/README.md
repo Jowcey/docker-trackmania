@@ -1,4 +1,4 @@
-# Maniaplanet + PyPlanet Pterodactyl egg
+# Maniaplanet + PyPlanet Pterodactyl egg - WIP
 #### for Pterodactyl v1.2.0 and up
 
 ### Todo:
