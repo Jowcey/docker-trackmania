@@ -1,4 +1,4 @@
-# TM2020 + PyPlanet Pterodactyl egg
+# TM2020 + PyPlanet Pterodactyl egg - WIP
 #### for Pterodactyl v1.2.0 and up
 
 ### Todo:

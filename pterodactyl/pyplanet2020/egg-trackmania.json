@@ -5,7 +5,7 @@
         "update_url": null
     },
     "exported_at": "2021-01-06T13:00:07+02:00",
-    "name": "Maniaplanet + PyPlanet",
+    "name": "TM2020 + PyPlanet",
     "author": "me@noxinmortus.fr",
     "description": "Maniaplanet Trackmania Server.\r\nSee original repository : https:\/\/github.com\/NoxInmortus\/docker-trackmania\r\nPyPlanet version by treier57lol: https:\/\/github.com\/treier57lol\/docker-trackmania\/tree\/pyplanet",
     "features": null,
