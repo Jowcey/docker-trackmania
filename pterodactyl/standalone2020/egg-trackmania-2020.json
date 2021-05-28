@@ -4,10 +4,10 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2021-05-28T15:50:31+03:00",
-    "name": "TM2020",
-    "author": "treier57lol",
-    "description": "Maniaplanet Trackmania Server.\r\nSee original repository: https:\/\/github.com\/NoxInmortus\/docker-trackmania\r\nFork by treier57lol: https:\/\/github.com\/treier57lol\/docker-trackmania\/tree\/pyplanet",
+    "exported_at": "2021-05-28T16:07:35+03:00",
+    "name": "Trackmania (2020)",
+    "author": "difiter23@gmail.com",
+    "description": "Trackmania 2020 Standalone Server.\r\nSee original repository: https:\/\/github.com\/NoxInmortus\/docker-trackmania\r\nFork by treier57lol: https:\/\/github.com\/treier57lol\/docker-trackmania\/tree\/pyplanet",
     "features": null,
     "images": [
         "treier57lol\/docker-trackmania:pterodactyl2020"
