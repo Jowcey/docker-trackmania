@@ -7,7 +7,7 @@ FROM python:3.9-slim-buster
 
 LABEL maintainer='treier57lol'
 
-RUN apt-get update -y && apt-get install -y wget ca-certificates libuuid \
+RUN apt-get update -y && apt-get install -y wget ca-certificates \
   && adduser -D -h /home/container container
 
 USER container
