@@ -7,7 +7,7 @@ FROM python:3.8-slim-buster
 
 LABEL maintainer='treier57lol'
 
-RUN apt-get update -y && apt-get install -y wget ca-certificates iproute2 \
+RUN apt-get update -y && apt-get install -y wget ca-certificates iproute2 procps \
   && adduser -D -h /home/container container
 
 USER container
