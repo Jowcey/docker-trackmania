@@ -20,7 +20,7 @@ RUN adduser -D -h ${WORKDIR} ${USER} && apk update \
     && apk add --no-cache unzip wget ca-certificates \
     && wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub \
     && wget -q https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/glibc-${GLIBC_VERSION}.apk \
-    && apk add --no-cache glibc-${GLIBC_VERSION}.apk libstdc++ musl libuuid \
+    && apk add --no-cache glibc-${GLIBC_VERSION}.apk libstdc++ musl libuuid python3 \
     && wget ${DEDICATED_URL} -qO /tmp/dedicated.zip \
     && mkdir -pv ${WORKDIR}/GameData ${TEMPLATE_DIR} \
     && unzip -quo /tmp/dedicated.zip -d ${WORKDIR} \
